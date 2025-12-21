@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.625;
+  background-color: light-dark(#f1f1f1, #23272E);
+  padding: .5rem;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.conversion-value {
+  color: #00d26a;
+  font-weight: bold;
+}
+
+.conversion-type {
+  background-color: #00d26a;
+  padding: 4px 8px;
+  border-radius: .25rem;
+  font-weight: bold;
+}

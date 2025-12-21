@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.625;
+  background-color: light-dark(#f1f1f1, #23272E);
+  padding: .5rem;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.item {
+  padding: 15px;
+  background-color: #2d323b;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 15px 0 0;
+  h2 {
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+  img {
+    max-width: 260px;
+    border-radius: 4px;
+  }
+}
