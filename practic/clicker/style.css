@@ -1,5 +1,6 @@
 :root {
   color-scheme: light dark;
+  --radius: 0.7rem;
 }
 
 
@@ -18,4 +19,17 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 
+}
+
+.panel {
+  background-color: #a3a3a36b;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  text-align: center;
+
+}
+
+.display-value {
+  font-size: 7.5rem;
+  font-weight: bold;
 }
